@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-salesforce-snapins" version="1.0.4"
+xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Snap-ins Salseforce</name>
+    <description>Plugin for SalesForce Snap-ins</description>
+    <author>Matteo Baggio</author>
+
+    <license>MIT</license>
+
+    <engines>
+        <engine name="cordova" version=">=7.1.0" />
+        <engine name="cordova-android" version=">=7.0.0" />
+        <engine name="cordova-ios" version=">=4.5.0" />
+    </engines>
+
+    <js-module name="SalesforceSnapInsPlugin" src="www/SalesforceSnapInsPlugin.js">
+        <clobbers target="cordova.plugins.SalesforceSnapIns"/>
+    </js-module>
+
+    <platform name="android">
+        <dependency id="cordova-plugin-android-fragmentactivity" url="https://github.com/SonoIo/cordova-plugin-android-fragmentactivity" commit="master" />
+
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="SalesforceSnapInsPlugin">
+                <param name="android-package" value="org.apache.cordova.salesforce.SalesforceSnapInsPlugin" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.INTERNET" />
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.CAMERA" />
+        </config-file>
+
+        <!-- <edit-config file="AndroidManifest.xml" target="/manifest" mode="merge">
+            <uses-sdk android:minSdkVersion="21" android:maxSdkVersion="28" />
+        </edit-config> -->
+
+        <source-file src="src/android/SalesforceSnapInsPlugin.java" target-dir="src/org/apache/cordova/salesforce" />
+        <source-file src="src/android/colors.xml" target-dir="src/res/values" />
+
+        <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
+    </platform>
+
+    <platform name="ios">
+        <!-- <dependency id="cordova-plugin-add-swift-support" version="~2.0.2" /> -->
+        <dependency id="cordova-plugin-cocoapod-support" version="~1.6.2" />
+
+        <pods-config ios-min-version="10.0" use-frameworks="true">
+            <source url="https://github.com/CocoaPods/Specs.git" />
+            <source url="https://github.com/goinstant/pods-specs-public" />
+        </pods-config>
+        <pod name="ServiceSDK" spec="~> 222.0" />
+
+        <config-file parent="/*" target="config.xml">
+            <feature name="SalesforceSnapInsPlugin">
+                <param name="ios-package" value="SalesforceSnapInsPlugin"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/SalesforceSnapIns-Plugin-Bridging-Header.h" />
+        <source-file src="src/ios/SalesforceSnapInsPlugin.swift" />
+
+        <!-- <preference name="UseSwiftLanguageVersion" value="4" /> -->
+    </platform>
+</plugin>

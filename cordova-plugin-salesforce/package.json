@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-salesforce-snapins@1.0.4",
+      "/Users/kushal/Desktop/UploadBranchJira/tlc-customer-app-inhouse-development"
+    ]
+  ],
+  "_from": "cordova-plugin-salesforce-snapins@1.0.4",
+  "_id": "cordova-plugin-salesforce-snapins@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-e7JhPWG/Z/fEaGl2a9UQrQjo6kSQi1K7jBptZ/o7pAvqayt9y2F7Gm0yXO+by3wOMrRRh0t87z9i0VwlRvqdQw==",
+  "_location": "/cordova-plugin-salesforce-snapins",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-salesforce-snapins@1.0.4",
+    "name": "cordova-plugin-salesforce-snapins",
+    "escapedName": "cordova-plugin-salesforce-snapins",
+    "rawSpec": "1.0.4",
+    "saveSpec": null,
+    "fetchSpec": "1.0.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-salesforce-snapins/-/cordova-plugin-salesforce-snapins-1.0.4.tgz",
+  "_spec": "1.0.4",
+  "_where": "/Users/kushal/Desktop/UploadBranchJira/tlc-customer-app-inhouse-development",
+  "author": {
+    "name": "Matteo Baggio"
+  },
+  "bugs": {
+    "url": "https://github.com/SonoIo/cordova-plugin-salesforce-snapins/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-salesforce-snapins",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "description": "Plugin for SalesForce Snap-ins",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=8.0.0"
+    },
+    {
+      "name": "cordova-android",
+      "version": ">=6.0.0"
+    },
+    {
+      "name": "cordova-ios",
+      "version": ">=4.5.0"
+    }
+  ],
+  "homepage": "https://github.com/SonoIo/cordova-plugin-salesforce-snapins#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "salesforce",
+    "snapins",
+    "chat"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-salesforce-snapins",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonoIo/cordova-plugin-salesforce-snapins.git"
+  },
+  "version": "1.0.4"
+}
