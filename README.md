@@ -13,7 +13,7 @@ For more information about Salesforce SDK look at:
 ## Installation
 
 ```
-cordova plugin add cordova-plugin-salesforce-snapins
+cordova plugin add cordova-plugin-salesforcechat
 ```
 
 
