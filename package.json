@@ -1,22 +1,22 @@
 {
   "_args": [
     [
-      "cordova-plugin-salesforce-snapins@1.0.4",
+      "cordova-plugin-salesforcechat@1.0.4",
       "/Users/kushal/Desktop/UploadBranchJira/tlc-customer-app-inhouse-development"
     ]
   ],
-  "_from": "cordova-plugin-salesforce-snapins@1.0.4",
-  "_id": "cordova-plugin-salesforce-snapins@1.0.4",
+  "_from": "cordova-plugin-salesforcechat@1.0.4",
+  "_id": "cordova-plugin-salesforcechat@1.0.4",
   "_inBundle": false,
   "_integrity": "sha512-e7JhPWG/Z/fEaGl2a9UQrQjo6kSQi1K7jBptZ/o7pAvqayt9y2F7Gm0yXO+by3wOMrRRh0t87z9i0VwlRvqdQw==",
-  "_location": "/cordova-plugin-salesforce-snapins",
+  "_location": "/cordova-plugin-salesforcechat",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "cordova-plugin-salesforce-snapins@1.0.4",
-    "name": "cordova-plugin-salesforce-snapins",
-    "escapedName": "cordova-plugin-salesforce-snapins",
+    "raw": "cordova-plugin-salesforcechat@1.0.4",
+    "name": "cordova-plugin-salesforcechat",
+    "escapedName": "cordova-plugin-salesforcechat",
     "rawSpec": "1.0.4",
     "saveSpec": null,
     "fetchSpec": "1.0.4"
@@ -24,14 +24,14 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-salesforce-snapins/-/cordova-plugin-salesforce-snapins-1.0.4.tgz",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-salesforcechat-/cordova-plugin-salesforcechat-1.0.4.tgz",
   "_spec": "1.0.4",
   "_where": "/Users/kushal/Desktop/UploadBranchJira/tlc-customer-app-inhouse-development",
   "author": {
     "name": "Matteo Baggio"
   },
   "bugs": {
-    "url": "https://github.com/SonoIo/cordova-plugin-salesforce-snapins/issues"
+    "url": "https://github.com/Shailendra2021/cordova-plugin-salesforcechat/issues"
   },
   "cordova": {
     "id": "cordova-plugin-salesforce-snapins",
@@ -55,7 +55,7 @@
       "version": ">=4.5.0"
     }
   ],
-  "homepage": "https://github.com/SonoIo/cordova-plugin-salesforce-snapins#readme",
+  "homepage": "https://github.com/Shailendra2021/cordova-plugin-salesforcechat.git#readme",
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -68,7 +68,7 @@
   "name": "cordova-plugin-salesforce-snapins",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SonoIo/cordova-plugin-salesforce-snapins.git"
+    "url": "git+https://github.com/Shailendra2021/cordova-plugin-salesforcechat.git"
   },
   "version": "1.0.4"
 }

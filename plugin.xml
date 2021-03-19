@@ -46,7 +46,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 
     <platform name="ios">
         <!-- <dependency id="cordova-plugin-add-swift-support" version="~2.0.2" /> -->
-        <dependency id="cordova-plugin-cocoapod-support" version="~1.6.2" />
+        <!-- <dependency id="cordova-plugin-cocoapod-support" version="~1.6.2" /> -->
 
         <pods-config ios-min-version="10.0" use-frameworks="true">
             <source url="https://github.com/CocoaPods/Specs.git" />
