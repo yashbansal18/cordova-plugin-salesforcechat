@@ -46,13 +46,13 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 
     <platform name="ios">
         <!-- <dependency id="cordova-plugin-add-swift-support" version="~2.0.2" /> -->
-        <dependency id="cordova-plugin-cocoapod-support" version="~1.6.2" />
+        <!-- <dependency id="cordova-plugin-cocoapod-support" version="~1.6.2" /> -->
  
         <pods-config ios-min-version="10.0" use-frameworks="true">
             <source url="https://github.com/CocoaPods/Specs.git" />
             <source url="https://github.com/goinstant/pods-specs-public" />
         </pods-config>
-       <!-- <framework src="ServiceSDK" type="podspec" spec="~> 222.0"/> -->
+<framework src="ServiceSDK" type="podspec" spec="~> 222.0"/>
         <pod name="ServiceSDK" spec="~> 222.0" />
 
         <config-file parent="/*" target="config.xml">
