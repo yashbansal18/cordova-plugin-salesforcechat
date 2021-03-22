@@ -24,7 +24,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-salesforcechat-/cordova-plugin-salesforcechat-1.0.4.tgz",
+  "_resolved": "git+https://github.com/Shailendra2021/cordova-plugin-salesforcechat#a3ccbae5e6526c7fa943db0e563196abe2bf2230",
   "_spec": "1.0.4",
   "_where": "/Users/kushal/Desktop/UploadBranchJira/tlc-customer-app-inhouse-development",
   "author": {
