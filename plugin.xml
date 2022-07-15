@@ -57,7 +57,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 <podspec>
         <config>
             <source url="https://github.com/CocoaPods/Specs.git" />
-            <source url="https://github.com/goinstant/pods-specs-public" />
+            <source url="https://github.com/Shailendra2021/pods-specs-public" />
         </config>
         <pods use-frameworks="true">
             <pod name="ServiceSDK" spec="~> 222.0" />
