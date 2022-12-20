@@ -19,7 +19,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
     </js-module>
 
     <platform name="android">
-        <dependency id="cordova-plugin-android-fragmentactivity" url="https://github.com/SonoIo/cordova-plugin-android-fragmentactivity" commit="master" />
+<!--         <dependency id="cordova-plugin-android-fragmentactivity" url="https://github.com/SonoIo/cordova-plugin-android-fragmentactivity" commit="master" /> -->
 
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="SalesforceSnapInsPlugin">
@@ -57,7 +57,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 <podspec>
         <config>
             <source url="https://github.com/CocoaPods/Specs.git" />
-            <source url="https://github.com/Shailendra2021/pods-specs-public" />
+            <source url="https://github.com/yashbansal18/pods-specs-public" />
         </config>
         <pods use-frameworks="true">
             <pod name="ServiceSDK" spec="~> 222.0" />
