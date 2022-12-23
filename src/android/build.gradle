@@ -4,13 +4,12 @@ allprojects {
     jcenter()
     maven {
       url 'https://s3.amazonaws.com/salesforcesos.com/android/maven/release'
+     
     }
-    maven {
-      url 'http://jfrog.bintray.com/maven/'
-    }
+   
   }
 }
 
 dependencies {
-  compile "com.salesforce.service:chat-ui:4.1.0"
+  implementation "com.salesforce.service:chat-ui:4.2.2"
 }
