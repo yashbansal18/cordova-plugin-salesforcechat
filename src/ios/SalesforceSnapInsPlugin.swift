@@ -387,8 +387,8 @@ func hexStringToUIColor(_ hex: String) -> UIColor {
     }
     
     func showInvalidEmailAlert() {
-        let alert = UIAlertController(title: "Alert", message: "Message", preferredStyle: UIAlertControllerStyle.alert)
-        alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: nil))
+        let alert = UIAlertController(title: "Alert", message: "Message", preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
         if let topVC = UIApplication.shared.keyWindow?.rootViewController, let presented = topVC.presentingViewController {
             presented.present(alert, animated: false, completion: nil)
         }
