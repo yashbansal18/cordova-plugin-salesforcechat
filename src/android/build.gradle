@@ -11,5 +11,5 @@ allprojects {
 }
 
 dependencies {
-  implementation "com.salesforce.service:chat-ui:4.2.2"
+  implementation "com.salesforce.service:chat-ui:4.3.4"
 }
